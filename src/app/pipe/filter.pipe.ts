@@ -1,3 +1,7 @@
+
+
+//pipe与AngularJS1.x中的filter等同，让你在template中改变值的显示
+
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({

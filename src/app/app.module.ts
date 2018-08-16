@@ -20,7 +20,7 @@ import {ReactiveFormsModule} from "@angular/forms";
 import { FilterPipe } from './pipe/filter.pipe';
 
 
-const routeConfig: Route = [
+const routeConfig = [
   {path: '', component: HomeComponent},
   {path: 'product/:pid', component: ProductdetilComponent}
 ]
