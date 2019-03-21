@@ -36,6 +36,7 @@ export class ProductService {
     return this.products.find((product) => product.id == id);
   }
 
+ 
   getCommentForProductId(id:number): Comment[] {
     return this.comments.filter((comment: Comment)=> comment.productId== id);
   }

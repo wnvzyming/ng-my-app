@@ -18,6 +18,7 @@ import { RouterModule } from '@angular/router';
 import {Route} from "@angular/compiler/src/core";
 import {ReactiveFormsModule} from "@angular/forms";
 import { FilterPipe } from './pipe/filter.pipe';
+import { AlertComponent } from './share/alert/alert.component';
 
 
 const routeConfig = [
@@ -38,6 +39,7 @@ const routeConfig = [
     HomeComponent,
     ProductdetilComponent,
     FilterPipe,
+    AlertComponent,
   ],
   imports: [
     BrowserModule,
